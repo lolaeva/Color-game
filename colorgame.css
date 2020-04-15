@@ -1,0 +1,75 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+h1 {
+    text-align: center;
+    line-height: 1.2;
+    color: white;
+    background: palevioletred;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+#colorDisplay {
+    font-size: 180%;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
+#container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+#stripe {
+    background: white;
+    height: 30px;
+    text-align: center;
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    /* transition takes two arguments: what to transition and time */
+    transition: background 0.5s;
+    /* to support this on other browsers*/
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+}
+
+.selected {
+    color: white;
+    background: palevioletred;
+}
+
+button {
+    /* remove browser blue outline */
+    outline: none;
+    border: none;
+    background: none;
+    height: 100%;
+    text-transform: uppercase;
+    font-weight: 780;
+    font-size: inherit;
+    letter-spacing: 1px;
+    color: palevioletred;
+    transition: all 0.3s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+button:hover {
+    color: white;
+    background: palevioletred;
+}
